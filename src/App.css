@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+  width: 29%;
+  margin: 6% auto;
+  border: 2px solid black;
+}
+.div-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+  padding: 1% 4% 1% 4%;
+}
+.items {
+  display: flex;
+  justify-content: space-between;
+  margin: 3%;
+  text-align: left;
+  width: 80%;
+}
+.minus-button {
+  width: 12%;
+  border-left: 3px solid black;
+}
+.m-button {
+  margin-top: 70%;
+}
+.minus-flex {
+  display: flex;
+  border: 2px solid black;
+  margin: 3%;
+}
+
+.dropdown-toggle::after {
+  float: right;
+  margin: 5%;
+}
+.dropdown-toggle {
+  width: 95%;
+  text-align: left;
+  background-color: white;
+  color: black;
+  border-color: black;
+}
+.dropdown{
+  margin:5% 1%;
+}
+a{
+  cursor: pointer;
+}
+.main-curr{
+  text-align: left;
+    margin: 0% 4%;
+}
+.main-curr-name{
+  font-style: italic;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
